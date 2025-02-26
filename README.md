@@ -5,3 +5,6 @@ A minimal flask web app running inside a Docker container.
 * Dockerized
 * Lightweight Python
 * Github Actions for auto docker builds (opt)
+
+
+git clone  https://github.com/deutschwolff/flask-web/
