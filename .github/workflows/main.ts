@@ -149,14 +149,5 @@ function resolveVersionInput(): string {
     return version;
   }
 
-  if (versionFilePath) {
-    if (!fs.existsSync(versionFilePath)) {
-      throw new Error(
-        `The specified go version file at: ${versionFilePath} does not exist`
-      );
-    }
-    version = installer.parseGoVersionFile(versionFilePath);
-  }
-
   return version;
 }
